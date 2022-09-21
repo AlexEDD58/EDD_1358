@@ -1,0 +1,10 @@
+git commit -m "nombreDelArchivo"
+para agregar un archivo, para agregar todo en la carpeta es
+git add .
+
+git status
+
+git rm --cached nombredelarchivo.tipodearchivo
+para desacer cambios del archivo, regresar un paso
+
+primero el git add . y al final el git commit -m "" para guardar los cambios
