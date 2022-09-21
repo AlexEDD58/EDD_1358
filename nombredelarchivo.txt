@@ -1,5 +1,6 @@
 git commit -m "nombreDelArchivo"
 para agregar un archivo, para agregar todo en la carpeta es
+
 git add .
 
 git status
@@ -8,3 +9,17 @@ git rm --cached nombredelarchivo.tipodearchivo
 para desacer cambios del archivo, regresar un paso
 
 primero el git add . y al final el git commit -m "" para guardar los cambios
+
+$git log --oneline
+
+$git checkout (codigo del log al que queramos regresar)
+
+$git branch
+ver cuantas ramas tenemos
+
+$git checkout (nombre de la rama que quiero, puede ser la rama master)
+
+git merge (nombre de la rama que vamos a unir)
+
+git branch -d (nombre de la rama para borrar)
+
